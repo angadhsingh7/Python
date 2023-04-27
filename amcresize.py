@@ -143,6 +143,6 @@ if (2 > len(sys.argv)):
      exit(1)
 
 # Create a window and pass it to the Application object
-#App(tkinter.Tk(), "Tkinter and OpenCV", "C:\\Users\\Mannut Singh\\OneDrive - Rensselaer Polytechnic Institute\\Desktop\\BIOL 4200\\big_buck_bunny_240p_30mb.mp4")
+#App(tkinter.Tk(), "Tkinter and OpenCV", "C:\\Users\\Desktop\\BIOL 4200\\big_buck_bunny_240p_30mb.mp4")
 
 App(tkinter.Tk(), os.path.basename(sys.argv[1]).split('/')[-1], sys.argv[1])
